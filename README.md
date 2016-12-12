@@ -14,6 +14,18 @@ via an easy to use interface. The progress bar visualisation backends are
 implemented for console and Jupyter notebooks.
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/progress_reporter-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/progress_reporter-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/progress_reporter-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/progress_reporter-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/progress_reporter-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/progress-reporter-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/progress_reporter/badges/version.svg)](https://anaconda.org/conda-forge/progress_reporter)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/progress_reporter/badges/downloads.svg)](https://anaconda.org/conda-forge/progress_reporter)
+
 Installing progress_reporter
 ============================
 
@@ -34,7 +46,6 @@ It is possible to list all of the versions of `progress_reporter` available on y
 ```
 conda search progress_reporter --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -70,18 +81,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/progress_reporter-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/progress_reporter-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/progress_reporter-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/progress_reporter-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/progress_reporter-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/progress-reporter-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/progress_reporter/badges/version.svg)](https://anaconda.org/conda-forge/progress_reporter)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/progress_reporter/badges/downloads.svg)](https://anaconda.org/conda-forge/progress_reporter)
 
 
 Updating progress_reporter-feedstock
