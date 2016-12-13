@@ -1,7 +1,7 @@
 {% set name = "progress_reporter" %}
 {% set pypi_name = name.replace('_', '-') %}
-{% set version = "1.3" %}
-{% set sha256 = "8884e81c47bae120a8543f7ce42296182115e495ab7666c69ad1f389ff78f9b8" %}
+{% set version = "1.3.1" %}
+{% set sha256 = "bafc84941264f7abccc233cf10a9f33483175b1a00ae13e843ca0ae21f5d46a9" %}
 
 package:
   name: {{ name|lower }} 
