@@ -17,9 +17,7 @@ implemented for console and Jupyter notebooks.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/progress_reporter-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/progress_reporter-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/progress_reporter-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/progress_reporter-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/progress_reporter-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/progress-reporter-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/progress_reporter-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/progress_reporter-feedstock)
 
 Current release info
 ====================
