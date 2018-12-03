@@ -1,7 +1,7 @@
 {% set name = "progress_reporter" %}
 {% set pypi_name = name.replace('_', '-') %}
-{% set version = "1.4.1" %}
-{% set sha256 = "9c0d87218bc4b963a576850b95ecb1201a445cd4a097ba7d58f78c581136b415" %}
+{% set version = "2.0" %}
+{% set sha256 = "3268b3281f06894643073dae5205e41e2a3b3811b7a3c34e39ece8b4107e9a7b" %}
 
 package:
   name: {{ name|lower }}
@@ -14,15 +14,16 @@ source:
 
 build:
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: "{{ PYTHON }} -m pip install . -vv"
   noarch: python
 
 requirements:
   build:
     - setuptools
+    - pip
+    - python
 
   run:
-    - tqdm >=4.23
     - python
 
 test:
